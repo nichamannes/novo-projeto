@@ -1,2 +1,2 @@
 # novo-projeto
-Aprendento a utilizar o github
+Aprendendo a utilizar o github
