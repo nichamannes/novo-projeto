@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+div {
+    background-color:black;
+    width: 430px;
+
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.temperatura {
+    color: white;
+    margin-top: 30px;
+    line-height: 1,5;
+}
+
+.descricao {
+    color:white;
+    margin-left: 20px;
+    text-transform: capitalize;
+    line-height: 1.5;
+}
+
+.umidade {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    text-transform: capitalize;
+    line-height: 1.5;
+}
+
+.caixa-maior {
+    background-color:black;
+    width: 95%;
+    max-width: 500px;
+    border-radius: 25px;
+    padding: 20px;
+    opacity: 0.8;
+    
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: white;
+    width: calc( 100% - 100px);
+
+}
+
+button {
+
+    float: right;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7c7c7c6b;
+    color: white;
+}
+
+.caixa-media {
+    margin-top: 30px;
+
+
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.lupa {
+    width: 20px;
+    height: 20px;
+}
